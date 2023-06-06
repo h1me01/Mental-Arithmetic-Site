@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopfrechnen</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/3a6a8736c3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5de01ef218.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="inhalt" id="inhalt">
+        <div class="quiz" id="quiz">
+            <h2>Mental Arithmetic</h2>
+
+            <div class="anpassungsbereich">
+                <p>Difficulty</p>
+
+                <ul>
+                    <li class="schw_link">EASY</li>
+                    <li class="schw_link">MEDIUM</li>
+                    <li class="schw_link">DIFFICULT</li>
+                </ul>
+            </div>
+
+            <div class="quiz_bereich">
+                <p id="quizfrage"></p>
+
+                <div class="quiz_antworten_bereich">
+                    <ul>
+                        <li class="quiz_antworten" id="antwort1"></li>
+                        <li class="quiz_antworten" id="antwort2"></li>
+                        <li class="quiz_antworten" id="antwort3"></li>
+                        <li class="quiz_antworten" id="antwort4"></li>
+                    </ul>
+                </div>
+
+                <div class="check_bereich">
+                    <div class="richtig_counter">
+                        <p id="richtig_counter">Right: 0</p>
+                    </div>
+
+                    <div class="falsch_counter">
+                        <p id="falsch_counter">Wrong: 0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+
+</html>
